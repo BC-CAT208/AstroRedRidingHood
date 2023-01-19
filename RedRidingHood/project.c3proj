@@ -21,13 +21,30 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "d58x523tln3",
 	"objectTypes": {
 		"items": [
 			"TiledBackground",
-			"Ground"
+			"Ground",
+			"Red"
 		],
 		"subfolders": []
 	},
