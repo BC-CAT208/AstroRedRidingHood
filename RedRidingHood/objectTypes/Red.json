@@ -9,6 +9,16 @@
 			"behaviorId": "Platform",
 			"name": "Platform",
 			"sid": 646300168491310
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 426835420814028
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 246286497988055
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +34,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7520651,
+						"imageSpriteId": 7045323,
 						"collisionPoly": {
 							"points": [
 								0.254,

@@ -1,5 +1,48 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Red",
+					"sid": 259836886288143,
+					"parameters": {
+						"object": "Wolf"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 650618505413761
+				}
+			],
+			"sid": 292293692737946
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Red",
+					"sid": 456967574685408,
+					"parameters": {
+						"object": "Basket"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Basket",
+					"sid": 129048008370786
+				}
+			],
+			"sid": 823639749743366
+		}
+	],
 	"sid": 147211800594188
 }
