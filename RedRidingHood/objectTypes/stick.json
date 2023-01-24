@@ -1,7 +1,7 @@
 {
-	"name": "Basket",
+	"name": "stick",
 	"plugin-id": "Sprite",
-	"sid": 737780616195558,
+	"sid": 682003493708052,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,24 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5752225,
+						"imageSpriteId": 2903251,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.994,
+								0,
+								1,
+								1,
+								0,
+								1
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 567338941701986,
+				"sid": 466279077676172,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

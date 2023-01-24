@@ -42,6 +42,76 @@
 				}
 			],
 			"sid": 823639749743366
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Red",
+					"sid": 636425714756146,
+					"parameters": {
+						"object": "stick"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-fade",
+					"objectClass": "Wolf",
+					"sid": 687088851199616,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 362446703615447
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 267223515595816,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Red",
+					"sid": 215766855315759,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 697678542459783
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 897337839106065,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Red",
+					"sid": 237219728208522,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 629367686376046
 		}
 	],
 	"sid": 147211800594188
